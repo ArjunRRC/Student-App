@@ -4,7 +4,7 @@ export const StudentContext = createContext()
 
 const initialStudents = [
   { id: 101, name: "Arjun" },
-  { id: 102, name: "Priya" },
+  { id: 102, name: "Surthika" },
   { id: 103, name: "Karthik" },
   { id: 104, name: "Meena" },
   { id: 105, name: "Ravi" },
