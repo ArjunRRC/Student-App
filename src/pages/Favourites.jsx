@@ -12,7 +12,7 @@ function Favourites() {
 
       {favourites.length === 0 ? (
         <div className="bg-white rounded-xl shadow p-10 text-center">
-          <p className="text-gray-500 text-lg">
+          <p className="text-red-500 text-lg">
             No favourite students added yet.
           </p>
         </div>
