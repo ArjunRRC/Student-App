@@ -7,7 +7,7 @@ import { StudentProvider } from './context/StudentContext.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <StudentProvider>
         <App />
       </StudentProvider>
